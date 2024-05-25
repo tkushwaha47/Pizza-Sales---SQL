@@ -119,4 +119,4 @@ on pizza_types.pizza_type_id = pizzas.pizza_type_id
 join order_details
 on order_details.pizza_id = pizzas.pizza_id
 group by pizza_types.category, pizza_types.name) as A) as B
-WHERE rn<= 3;
+WHERE rn<= 3; 
